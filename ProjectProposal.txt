@@ -1,0 +1,24 @@
+﻿I would like to determine which factors a bank would opt for to determine if a given loan should be given. 
+I would also like to determine the probability a consumer comes back for a second loan (repeat customer) and see how that affects the model
+I would also like to determine the probability a loan will go delinquent
+
+
+Hypothesis/assumptions - A bank wants to know which factors make sure they get all their money in a timely manner, and if they can expect additional money from consumers.
+
+
+Goals/success metrics - What % of approved loans overlap with the given data set? What % of loans did the model approve went delinquent? How many loans did the model approve that the given data didn’t? How are these metrics affected by adding in the probability a consumer comes back for a second loan
+
+
+Limitations - Will not be able to determine what happened to applications that did not get approved (Did they go somewhere else and not go delinquent?)
+
+
+Risks - Predicting repeat customers might be outside the scope of the data set (maybe there are external factors that lead to this)
+
+
+Data Set - The lending club data set
+
+
+Other notes - Possibly adding external data to the data set like economic climate(GDP growth/Consumer confidence index/etc.)
+
+
+Possibly determine an expected outcomes curve to weight both ROI, and loan volume
